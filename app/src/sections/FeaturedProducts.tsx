@@ -16,7 +16,7 @@ const products = [
   },
   {
     name: 'C Handle Umbrella',
-    image: '/images/cushions.png',
+    image: '/images/umbrella.jpg',
     rating: 4,
     price: 'From Le 150',
   },
