@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+    --primary: 240 5.9% 10%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 5.9% 10%;
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+    --accent: 240 4.8% 95.9%;
+    --accent-foreground: 240 5.9% 10%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 240 5.9% 10%;
+    --radius: 0.625rem;
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+
+    --deep-purple: #2D1B69;
+    --warm-orange: #F26522;
+    --orange-dark: #E55A1B;
+    --forest-green: #25D366;
+    --green-dark: #1DA851;
+    --soft-cream: #FFF8F0;
+    --light-lavender: #F3EEF9;
+    --dark-slate: #1A1A2E;
+    --muted-gray: #6B7280;
+    --star-yellow: #FFB800;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: auto;
+  }
+
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+    color: var(--deep-purple);
+    background-color: var(--soft-cream);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inter', system-ui, sans-serif;
+    font-weight: 700;
+  }
+}
+
+@layer components {
+  .font-display {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 px-7 h-[52px] rounded-2xl font-semibold text-[15px] text-white transition-all duration-300;
+    background-color: var(--warm-orange);
+    box-shadow: 0 4px 16px rgba(242, 101, 34, 0.3);
+  }
+
+  .btn-primary:hover {
+    background-color: var(--orange-dark);
+    box-shadow: 0 6px 24px rgba(242, 101, 34, 0.4);
+    transform: translateY(-2px);
+  }
+
+  .btn-whatsapp {
+    @apply inline-flex items-center justify-center gap-2 px-7 h-[52px] rounded-2xl font-semibold text-[15px] text-white transition-all duration-300;
+    background-color: var(--forest-green);
+  }
+
+  .btn-whatsapp:hover {
+    background-color: var(--green-dark);
+    transform: translateY(-2px);
+  }
+
+  .card-shadow {
+    box-shadow: 0 4px 24px rgba(45, 27, 105, 0.08);
+  }
+
+  .card-shadow-hover {
+    box-shadow: 0 8px 32px rgba(45, 27, 105, 0.14);
+  }
+
+  .container-main {
+    @apply mx-auto px-4 sm:px-6 lg:px-8;
+    max-width: 1280px;
+  }
+}
