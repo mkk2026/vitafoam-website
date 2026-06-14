@@ -13,7 +13,7 @@
 <p align="center">
   <a href="https://wa.me/23276271771">WhatsApp Us</a>
   &nbsp;&middot;&nbsp;
-  <a href="mailto:info@vitafoambrookfields.com">Email</a>
+  <a href="mailto:vbrookfields@gmail.com">Email</a>
   &nbsp;&middot;&nbsp;
   <a href="https://www.vitafoambrookfields.com">Website</a>
 </p>
@@ -116,7 +116,7 @@ We coordinate deliveries across Freetown and beyond, and our team is always just
 | **Address** | 29B King Harman Road, Brookfields, Freetown, Sierra Leone |
 | **Phone** | 076 271 771 |
 | **WhatsApp** | [Chat with us](https://wa.me/23276271771) |
-| **Email** | info@vitafoambrookfields.com |
+| **Email** | vbrookfields@gmail.com |
 | **Hours** | Mon - Fri: 7:30 AM - 7 PM &middot; Sat: 8:30 AM - 4 PM |
 
 ---

@@ -123,11 +123,11 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="mailto:info@vitafoambrookfields.com"
+                  href="mailto:vbrookfields@gmail.com"
                   className="flex items-center gap-3 text-sm text-white/70 hover:text-white transition-colors duration-300"
                 >
                   <Mail size={16} className="flex-shrink-0 text-[#F26522]" />
-                  <span>info@vitafoambrookfields.com</span>
+                  <span>vbrookfields@gmail.com</span>
                 </a>
               </li>
               <li>
